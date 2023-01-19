@@ -33,8 +33,10 @@ ln -s /usr/local/share/munin/plugins/unbound_munin_ /usr/local/etc/munin/plugins
 
 <h2>step3</h2>
 
+<pre>
 service unbound restart
 service munin-node restart
+</pre>
 
 done!
 
